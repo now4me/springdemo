@@ -26,6 +26,8 @@ public class HelloController {
 		return "Saved";
 	}
 	
+	// git commit test
+	
 	@GetMapping(path="/all")
 	public @ResponseBody Iterable<User> getAllUsers(){
 		return userRepository.findAll();
